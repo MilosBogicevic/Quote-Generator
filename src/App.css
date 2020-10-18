@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: burlywood;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 600px;
+  max-width: 100%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.container h1 {
+}
+
+.container p {
+  padding-bottom: 2rem;
+}
+
+button {
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
